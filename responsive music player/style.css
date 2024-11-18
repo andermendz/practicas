@@ -1,0 +1,35 @@
+:root{
+font-size: 14px;
+
+
+
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-container{
+    height: 100vh;
+    display: grid;
+    
+
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 6fr 1fr;
+}
+
+.page-section{
+    background-color:rgb(206, 239, 255);
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+@media (max-width: 800px){
+    .main-container{
+    
+    grid-template-columns: 1fr;
+    grid-template-rows: auto ;
+   
+    }
+}
